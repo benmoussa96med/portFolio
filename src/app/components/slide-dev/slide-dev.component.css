@@ -1,0 +1,16 @@
+.containerr {
+    position: relative;
+    text-align: top;
+    color: rgb(241, 240, 240);
+}
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cadre {
+    background-color: red;
+}
