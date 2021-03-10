@@ -1,0 +1,183 @@
+body {
+    font: 18px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: grey;
+}
+
+@media(min-width:768px) {
+    html,
+    body {
+        /* for jumbotron */
+        height: 100%;
+    }
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-right: 250px;
+    }
+    #wrapper.toggled {
+        padding-right: 0;
+    }
+    #nav-side-wrapper {
+        width: 0;
+    }
+    #wrapper.toggled #nav-side-wrapper {
+        width: 250px;
+    }
+    #content-wrapper {
+        position: relative;
+    }
+    #wrapper.toggled #content-wrapper {
+        position: relative;
+        margin-left: 0;
+    }
+}
+
+.jumbotron {
+    width: 100%;
+    margin: 0;
+    background-image: url('../../../assets/images/slide1.jpeg');
+}
+
+.jumbotron .container {
+    padding: initial;
+    color: white;
+}
+
+.jumbotron .container h1 {
+    text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron .container h3 {
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron .container p {
+    margin-top: 30px;
+}
+
+.jumbotron .container .btn {
+    -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 5px 15px -3px rgba(0, 0, 0, 1);
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.vertical-centre {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+section {
+    position: relative;
+}
+
+section .container {
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+section#portfolio {
+    background-image: url(http://dan.motiongear.org/images/foliobgd.png);
+}
+
+section#portfolio .container h1,
+section#portfolio .container h3 {
+    color: white;
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+section#contact .container {
+    padding-bottom: 60px;
+}
+
+section#contact .container>.row {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section#contact .glyphicon {
+    color: #1abc9c;
+    padding-right: 8px;
+}
+
+#form-feedback {
+    color: #1abc9c;
+    opacity: 0;
+    margin: 5px;
+    margin-right: 80px;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.bgd {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .bgd {
+        background-size: auto 130%;
+    }
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.btn {
+    margin: 5px 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn-lg i {
+    padding-right: 8px;
+}
+
+.btn-success {
+    background-color: #e0e0e0 !important;
+}
+
+.btn-success:hover {
+    background-color: #0c729b !important;
+}
+
+.btn-success.disabled {
+    background-color: #0c729b !important;
+}
+
+a {
+    color: white;
+    display: inline-block;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    transform: translate(0, -2px);
+}
+
+a.top:hover {
+    letter-spacing: 2px;
+    transform: translate(0, -20px);
+}
+
+footer {
+    padding-bottom: 20px !important;
+    background: black;
+}

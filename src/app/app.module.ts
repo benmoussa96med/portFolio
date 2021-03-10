@@ -8,6 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuComponent } from './components/menu/menu.component';
 import { SlideDevComponent } from './components/slide-dev/slide-dev.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { MyServiceComponent } from './components/my-service/my-service.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     MenuComponent,
     SlideDevComponent,
     AboutMeComponent,
+    MyServiceComponent,
+    FooterComponent,
    
   ],
   imports: [
