@@ -10,6 +10,7 @@ import { SlideDevComponent } from './components/slide-dev/slide-dev.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { MyServiceComponent } from './components/my-service/my-service.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutMeComponent,
     MyServiceComponent,
     FooterComponent,
+    ContactComponent,
    
   ],
   imports: [
