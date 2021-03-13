@@ -726,3 +726,9 @@ a {
 
 
 /*# sourceMappingURL=main.css.map */
+
+.cv-etudes {
+    text-align: center;
+    border: 2px solid #212529;
+    width: 100%;
+}
